@@ -1,0 +1,130 @@
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color:#333333 ;
+}
+/*顶部*/
+body{
+    background-color: #DEDEDE;
+    font-family: simhei;
+}
+.nav li{
+    float: right;
+    font-size: 10px;
+    position: relative;
+    margin-right: 12px;
+    top: -39px;
+    right:25px;
+    width: 80px;
+}
+.navlist{
+    float: right;
+    width: 35%;
+}
+/*总体*/
+a,a:link{
+    text-decoration: none;
+}
+
+.text1,.text2,.text3,.text4{
+    border: 1px ;
+    box-shadow: 5px 5px 5px gray;
+    display: block;
+    background-color: white;
+    margin: 15px;
+    padding:15px;
+    max-width: 55%;
+    float: left;
+}
+.text1{
+    position: relative;
+    top:10px;
+    max-width:55.5%;
+}
+.text2{
+    position: absolute;
+    max-width: 55%;
+    top:148%;
+    left: 8px;
+}
+.text2_list{
+    list-style: none;
+}
+.text3{
+    position: absolute;
+    width: 55%;
+    top:280%;
+    left: 8px;
+}
+.text3 figure{
+    border: 1px solid;
+    text-align: center;
+    width: 45%;
+}
+.text3 figure img{
+    text-align: center;
+    width: 85%;
+}
+.text4{
+    position: absolute;
+    width: 83%;
+    top:460%;
+    left: 8px;
+}
+.text4_list li{
+    font-weight:700;
+    font-size: 1.2rem;
+}
+.text5{
+    border: 1px ;
+    box-shadow: 5px 5px 5px gray;
+    display: block;
+    background-color: white;
+    margin: 15px;
+    padding:15px;
+    margin-top: 10px;
+    max-width: 35%;
+    float: right;
+}
+.text5_form{
+    position: relative;
+}
+.text5_form input{
+    margin: 8px;
+}
+.text5_form label{
+    margin-right: 10px;
+}
+.pwd{
+    margin-right:80px ;
+}
+.text5_form textarea{
+    overflow-x:auto;
+    max-width: 55%;
+}
+
+.sub {
+    border-radius: 25px;
+    width:100%;
+    background: deepskyblue;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+/*中间*/
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color:#333333 ;
+    position: absolute;
+    top:532%;
+}
+.footer a{
+    position: relative;
+    left: 48%;
+    top: 50%;
+    color: white;
+}
+
+/*底部*/
